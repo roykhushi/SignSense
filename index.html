@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignSense</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="main1" class="container min-h-screen bg-black px-28 py-4">
+        <nav id="navig" class="flex items-center p-2">
+            <ul class="flex-1 text-center">
+                <li class="list-none inline-block px-5 space-x-1"><a href="#"  class="no-underline text-white text-[18px] font-semibold px-2 hover:text-[#0ef]">Home</a></li>
+                <li class="list-none inline-block px-5 space-x-1"><a href="#"  class="no-underline  text-white text-[18px] font-semibold px-2 hover:text-[#0ef]">Get  Started</a></li>
+                <li class="list-none inline-block px-5 space-x-1"><a href="#"  class="no-underline  text-white text-[18px] font-semibold px-2 hover:text-[#0ef]">Features</a></li>
+                
+            </ul>
+        </nav>
+
+        <div id="main2" class="text-white font-bold text-[35px] mt-[100px] p-5">
+            <h1>Welcome to <span id="animate" class="text-[#0ef]">SignSense</span></h1>
+        </div>
+        <div id="main3" class="mt-[10px]">
+            <p class="text-white mt-[25px] p-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                Laborum est eveniet labore in quam modi nulla eaque id sint, temporibus autem ipsam inventore sit sed consequatur itaque nisi? Molestiae, a?</p>
+
+        </div>
+        <button id="btn" class="mt-[35px] text-white p-4 mx-2 text-[14x] rounded-md border-2 hover:bg-transparent hover:border-[#0ef] hover:text-[#0ef] duration-300 hover:border">Get Started <i class="fa-solid fa-arrow-up-right-from-square mx-2"></i></button>
+        
+    </div>
+    <br>
+    <div class="container min-h-screen bg-black px-28 py-4 flex items-center justify-center space-x-48 ">
+        <!-- <h1 class="text-white font-semibold text-[25px] flex-1 text-center"></h1> -->
+
+        <div id="images" class="w-[350px] h-[350px] border-4 mt-[70px] mb-[10px] flex items-center justify-center hover:bg-transparent hover:border-[#0ef] hover:text-[#0ef] duration-300 hover:border cursor-pointer">
+            <h1 class="text-white flex text-[23px]">Upload Images/Videos <i class="fa-solid fa-upload flex items-center justify-center mx-3 my-1"> </i></h1>
+            
+        </div>
+
+        <div id="images" class="w-[350px] h-[350px]  border-4 mt-[70px] mb-[10px] flex items-center justify-center hover:bg-transparent hover:border-[#0ef] hover:text-[#0ef] duration-300 hover:border cursor-pointer">
+            <h1 class="text-white flex text-[23px]">Live Sign Detection <i class="fa-solid fa-video w-[10px] h-[10px] mx-3 my-1.5"></i></h1>
+        </div>
+    </div>
+    
+    <br>
+    <div class="container min-h-screen bg-black px-28 py-4 ">
+        <h1 class="text-white text-[28px] text-center mt-5 font-semibold mb-10">Our Salient Features</h1>
+        <div class="max-w-2xl mx-auto">
+            <div class="bg-white rounded-2xl border-4">
+                <div class="accordion-header p-2 flex items-center justify-between mx-2">
+                    <span class="font-semibold text-lg">What is SignSense?</span> <i class="fa-solid fa-chevron-down"></i>
+                </div>
+
+                <div class="accordion-body">
+                    <div class="p-4 border-t">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis reiciendis qui architecto nisi temporibus nihil pariatur, expedita dolore amet facilis perferendis quia accusantium! Dicta temporibus nostrum, enim id animi consequuntur.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+           
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+</body> 
+</html>
