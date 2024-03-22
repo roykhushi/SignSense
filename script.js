@@ -8,33 +8,18 @@ var typed = new Typed('#animate', {
 
 //gsap
 const tl = gsap.timeline();
-tl.from("#navig li , #main1 h1, #main3 p" , {
+// tl.from("#navig li , #main1 h1, #main3 p , #navig img , #navig button," , {
+//     y: -100,
+//     duration: 1,
+//     delay :0.5,
+//     opacity: 0,
+//     stagger: 0.2
+// });
+tl.from("#navig li  , #main1 h1 , #main2 h1 , #main3 p , #navig img , #navig button" , {
     y: -100,
     duration: 1,
     delay :0.5,
-    opacity: 0
+    opacity: 0,
+    stagger: 0.2
 });
 
-tl.from("#btn" , {
-  duration: 1,
-  delay :0.5,
-  opacity: 1,
-  stagger: 0.2
-});
-
-// const tl = gsap.timeline();
-// tl.from("#navig li", {
-//       y:-100,
-//       duration: 1,
-//       delay: 0.5,
-//       opacity: 0,
-//       stagger: 0.2
-// });
-
-// tl.from("#main1 h1 , #main3 p" , {
-//       y:-100,
-//       duration: 1,
-//       delay: 0.5,
-//       opacity: 0,
-//       // stagger: 0.2
-// });
