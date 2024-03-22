@@ -1,3 +1,5 @@
+
+
 //typing effect
 var typed = new Typed('#animate', {
     strings: ['SignSense!'], //content to show in the animation

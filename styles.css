@@ -1,10 +1,13 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 *{
-    font-family: 'Poppins' , sans-serif;
+  font-family: 'Poppins' , sans-serif;
 }
+
+
+body::-webkit-scrollbar{
+  display: none;
+}
+
+
 
 #typed{
     width: 100%;
