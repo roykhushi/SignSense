@@ -2,10 +2,15 @@
   font-family: 'Poppins' , sans-serif;
 }
 
+html{
+  scroll-behavior: smooth;
+}
 
 body::-webkit-scrollbar{
   display: none;
+  scroll: smooth;
 }
+
 
 
 
@@ -15,6 +20,24 @@ body::-webkit-scrollbar{
     margin: 5px;
     padding: 10px;
 }
+
+nav ul li::after{
+  content: '';
+  width: 0;
+  height: 3px;
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #0ef;
+  transition: width 0.4s;
+}
+
+nav ul li:hover::after{
+  width: 70%; /*width of the line on hover*/
+  border-radius: 5px;
+}
+
 
 /* padding: 10px 12%;
 text-align: center;

@@ -3,21 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SignSense</title>
+    <title>SignSense</title><link rel="icon" href="logo2.jpg" type="title_logo">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <div id="main1" class="container min-h-screen bg-black px-[40px] py-4">
-        <nav id="navig" class="flex items-center justify-between p-2 mt-3 w-[100%] ">
-            <img src="/logo.jpg" alt="logo" class="w-[200px] h-[55px] mt-2 p-2">
+        <nav id="nav" class="flex items-center justify-between p-2 mt-3 w-[100%] ">
+            <a href="index.html"><img src="/logo.jpg" alt="logo" class="w-[200px] h-[55px] mt-2 p-2 cursor-pointer"></a>
             <ul class="flex-1 text-center">
                 
-                <li class="list-none inline-block px-5 space-x-1"><a href="#"  class="no-underline text-white text-[18px] font-semibold px-2 hover:text-[#0ef]">Home</a></li>
+                <li class="list-none inline-block px-5 space-x-1"><a href="index.html"  class="no-underline text-white text-[18px] font-semibold px-2 hover:text-[#0ef]">Home</a></li>
                 <li class="list-none inline-block px-5 space-x-1"><a href="#get-started"  class="no-underline  text-white text-[18px] font-semibold px-2 hover:text-[#0ef]">Get  Started</a></li>
                 <li class="list-none inline-block px-5 space-x-1"><a href="#features"  class="no-underline  text-white text-[18px] font-semibold px-2 hover:text-[#0ef]">Features</a></li>
-                <button class="text-white text-center float-right font-semibold mx-3 rounded-md border-[1px] w-[100px] h-[35px] mb-2 hover:bg-transparent hover:border-[#0ef] hover:text-[#0ef] hover:border">Login</button>
+               <button class="text-white text-center float-right font-semibold mx-3 rounded-md border-[1px] w-[100px] h-[35px] mb-2 hover:bg-transparent hover:border-[#0ef] hover:text-[#0ef] hover:border">Login</button>
             </ul>
         </nav>
 
@@ -30,7 +30,7 @@
                 
         </div>
         
-        <button id="btn" class="mt-[35px] text-white p-4 mx-2 text-[14x] rounded-md border-2 hover:bg-transparent hover:border-[#0ef] hover:text-[#0ef] duration-300 hover:border">Get Started <i class="fa-solid fa-arrow-up-right-from-square mx-2"></i></button>
+        <a href="#get-started"><button id="btn" class="mt-[35px] text-white p-4 mx-2 text-[14x] rounded-md border-2 hover:bg-transparent hover:border-[#0ef] hover:text-[#0ef] duration-300 hover:border">Get Started<i class="fa-solid fa-arrow-up-right-from-square mx-2"></i></button></a>
         
     </div>
     
@@ -119,6 +119,7 @@
     
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script src="script.js"></script>
 </body> 
