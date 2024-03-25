@@ -17,6 +17,6 @@ tl.from("#nav li, #nav img , #nav button , #main2 h1 , #main3 p" , {
     stagger: 0.2
 });
 
-tl.from("#get-started",{
-  scrollTrigger: "#get-started"
-})
+// tl.from("#get-started",{
+//   scrollTrigger: "#get-started"
+// })
