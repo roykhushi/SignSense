@@ -1,8 +1,8 @@
 //typing effect
 var typed = new Typed('#animate', {
     strings: ['SignSense!'], //content to show in the animation
-    typeSpeed: 120, //typing speed in ms
-    backSpeed: 200, //backspeed in ms
+    typeSpeed: 100, //typing speed in ms
+    backSpeed: 40, //backspeed in ms
     loop:true, // infinite loop of the animation
   });
 
