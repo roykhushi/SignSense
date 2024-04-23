@@ -2,7 +2,7 @@
 var typed = new Typed('#animate', {
     strings: ['SignSense!'], //content to show in the animation
     typeSpeed: 100, //typing speed in ms
-    backSpeed: 40, //backspeed in ms
+    backSpeed: 100, //backspeed in ms
     loop:true, // infinite loop of the animation
   });
 

@@ -2,8 +2,14 @@ const dropArea = document.querySelector(".drag-area");
 const dragText = dropArea.querySelector("header");
 const button = dropArea.querySelector("button");
 const input = dropArea.querySelector("input");
+
+const newBtn = document.querySelector(".new-btn");
+
 let file;
 
+newBtn.onclick = () => {
+    input.click();
+}
 
 button.onclick = () => {
    input.click();  //when clicked on the button -> input will also be clicked
